@@ -1,0 +1,63 @@
+/* Elements */
+body {
+    background-image: url("../images/background-1.jpg");
+    font-family: 'PT Mono', monospace;
+}
+
+/* IDs */
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-container {
+    background-color: lemonchiffon;
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    border: black solid 1px;
+}
+#game-title {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background-color: coral;
+    text-shadow: 3px 3px black;
+    padding: 1%;
+    border-bottom: black solid 1px;
+}
+#start-button {
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    font-family: 'PT Mono', monospace;
+}
+#start-button:hover {
+    cursor: pointer;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lemonchiffon;
+    width: 80%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    border: black solid 1px;
+    background-color: coral;
+}
