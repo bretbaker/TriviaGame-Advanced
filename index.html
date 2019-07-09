@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Totally Trivial Trivia!</title>
-    <link href="css/reset.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
-    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
@@ -14,13 +14,51 @@
     <div id="page-container">
 
         <!-- Content Container -->
-        <div id="content-container">
+        <div id="content-container" class="center-position">
+            
+            <!-- Main Header/Game Title -->
             <div id="game-title">
                 <h1>Totally Trivial Trivia!</h1>
             </div>
-            <div>
-                <button id="start-button">Start</button>
+            
+            <!-- Start Button -->
+            <button id="start-button" class="center-position">Start</button>
+
+            <!-- Question 1 -->
+            <div id="question-1" class="question-container">
+                
+                <!-- Timer -->
+                <div id="timer" class="question-contents">
+                    <h2>Time Remaining: 30 Seconds</h2>
+                    <br>
+                </div>
+                
+                <!-- Question -->
+                <div id="question" class="question-contents">
+                    <h2>Who is the first Avenger?</h2>
+                    <br>
+                </div>
+                
+                <!-- Answer Options -->
+                <div>
+
+                    <!-- Option 1 -->
+                    <button class="answer-options question-contents">Captain Marvel</button>
+                    <br>
+                    <!-- Option 2 -->
+                    <button class="answer-options question-contents">Iron Man</button>
+                    <br>
+                    <!-- Option 3 -->
+                    <button class="answer-options question-contents">Spider-Man</button>
+                    <br>
+                    <!-- Option 4 -->
+                    <button class="answer-options question-contents">Captain America</button>
+                    <br>
+
+                </div>
+
             </div>
+
         </div>
 
         <!-- Footer -->
@@ -34,6 +72,7 @@
     crossorigin="anonymous"></script>
 
     <!-- Javascript file link -->
-    <script src=""
+    <script src="assets/javascript/app.js" type="text/javascript" rel="javascript"></script>
+
 </body>
 </html>
