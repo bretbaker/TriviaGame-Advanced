@@ -82,6 +82,15 @@
                             <br>
                             <img class="image question-contents" src="assets/images/captain-america-1.gif" alt="Captain America throwing a thumbs up.">
                         </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-1" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
+                            <br>
+                            <h2 class="question-contents">The first Avenger is Captain America!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/captain-america-1.gif" alt="Captain America throwing a thumbs up.">
+                        </div>
         
                     </div>
 
@@ -137,6 +146,15 @@
                         <!-- Inorrect Answer -->
                         <div id="incorrect-2" class="question-contents">
                             <h2 class="question question-contents">Nope!</h2>
+                            <br>
+                            <h2 class="question-contents">Captain Marvel inspired Nick Fury to draft "The Avengers Initiative"!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/captain-marvel-1.gif" alt="Captain America throwing a thumbs up.">
+                        </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-2" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
                             <br>
                             <h2 class="question-contents">Captain Marvel inspired Nick Fury to draft "The Avengers Initiative"!</h2>
                             <br>
@@ -202,6 +220,15 @@
                             <br>
                             <img class="image question-contents" src="assets/images/loki-1.gif" alt="Loki smiling.">
                         </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-3" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
+                            <br>
+                            <h2 class="question-contents">Loki is the first villain the Avengers defeated!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/loki-1.gif" alt="Loki smiling.">
+                        </div>
         
                     </div>
 
@@ -257,6 +284,15 @@
                         <!-- Inorrect Answer -->
                         <div id="incorrect-4" class="question-contents">
                             <h2 class="question question-contents">Nope!</h2>
+                            <br>
+                            <h2 class="question-contents">The first Infinity Stone revealed in the MCU is the Space Stone!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/space-stone-1.gif" alt="Loki revealing the tesseract.">
+                        </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-4" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
                             <br>
                             <h2 class="question-contents">The first Infinity Stone revealed in the MCU is the Space Stone!</h2>
                             <br>
@@ -322,6 +358,15 @@
                             <br>
                             <img class="image question-contents" src="assets/images/hulk-1.gif" alt="The Hulk as a gladiator on Sakaar.">
                         </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-5" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
+                            <br>
+                            <h2 class="question-contents">The Hulk ends up on Sakaar after the Avengers defeat Ultron!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/hulk-1.gif" alt="The Hulk as a gladiator on Sakaar.">
+                        </div>
         
                     </div>
 
@@ -377,6 +422,15 @@
                         <!-- Inorrect Answer -->
                         <div id="incorrect-6" class="question-contents">
                             <h2 class="question question-contents">Nope!</h2>
+                            <br>
+                            <h2 class="question-contents">Tony Stark's protege in the MCU is Peter Parker!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/tony-peter-1.gif" alt="Iron Man and Spider-Man flying through New York.">
+                        </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-6" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
                             <br>
                             <h2 class="question-contents">Tony Stark's protege in the MCU is Peter Parker!</h2>
                             <br>
@@ -442,6 +496,15 @@
                             <br>
                             <img class="image question-contents" src="assets/images/thanos-1.gif" alt="Thanos getting the sixth and final Infinity Stone.">
                         </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-7" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
+                            <br>
+                            <h2 class="question-contents">Thanos collected all six Infinity Stones and initially defeated the Avengers!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/thanos-1.gif" alt="Thanos getting the sixth and final Infinity Stone.">
+                        </div>
         
                     </div>
 
@@ -502,8 +565,31 @@
                             <br>
                             <img class="image question-contents" src="assets/images/iron-man-1.gif" alt="Tony Stark defeating Thanos.">
                         </div>
+
+                        <!-- Unanswered -->
+                        <div id="unanswered-8" class="question-contents">
+                            <h2 class="question question-contents">You ran out of time!</h2>
+                            <br>
+                            <h2 class="question-contents">Iron Man sacrificed his life with a snap to defeat Thanos!</h2>
+                            <br>
+                            <img class="image question-contents" src="assets/images/iron-man-1.gif" alt="Tony Stark defeating Thanos.">
+                        </div>
         
                     </div>
+
+            <!-- Results -->
+            <!-- --------------------------------------------------------------------------------------- -->
+            <div id="results" class="question-container">
+                
+                <h2 class="question question-contents">All done, here's how you did!</h2>
+                <br>
+                <h2 id="correct-count" class="question-contents"></h2>
+                <h2 id="incorrect-count" class="question-contents"></h2>
+                <h2 id="unanswered-count" class="question-contents"></h2>
+                <br>
+                <button id="start-over" class="answer-options question-contents">Start Over</button>
+
+            </div>
 
         </div>
 
