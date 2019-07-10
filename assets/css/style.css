@@ -44,6 +44,7 @@ body {
 
 .image {
     border: ridge white 3px;
+    width: 60%;
 }
 
 /* IDs */
