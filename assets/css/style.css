@@ -42,6 +42,10 @@ body {
     cursor: pointer;
 }
 
+.image {
+    border: ridge white 3px;
+}
+
 /* IDs */
 
 #page-container {

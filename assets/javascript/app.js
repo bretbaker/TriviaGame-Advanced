@@ -25,6 +25,8 @@ $(window).on('load', function() {
 
     // hide questions so they can be revealed sequentially
     $("#question-1").hide();
+    $(".correct-1").hide();
+    $("#incorrect-1").hide();
     $("#question-2").hide();
     $("#question-3").hide();
     $("#question-4").hide();
@@ -50,15 +52,30 @@ $(document).ready(function() {
         timer();
     });
 
+        // Answer 1
+        // -----------------------------------------
+        
+            // Correct
+            $("#correct-1").on('click', function() {
+                $("#question-1").hide();
+                $(".correct-1").show();
+            });
+
+            // Incorrect
+            $(".incorrect-1").on('click', function() {
+                $("#question-1").hide();
+                $("#incorrect-1").show();
+            });
+
     // Question 2
     // ----------------------------------------------------
-    $("#correct-1").on('click', function() {
-        $("#question-1").hide();
-        $("#question-2").show();
-        page = 2;
-        timerReset();
-        timer();
-    });
+    // $("#correct-1").on('click', function() {
+    //     $("#question-1").hide();
+    //     $("#question-2").show();
+    //     page = 2;
+    //     timerReset();
+    //     timer();
+    // });
 
     // Question 3
     // ----------------------------------------------------
